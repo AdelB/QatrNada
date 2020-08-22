@@ -1,0 +1,18 @@
+Pour créer un arbre pour Qatr Nada : 
+    - mettre les mots en hierarchie avec des tabulations (excel ou ici)
+    - c/c ici : https://lautgesetz.com/latreex/
+    - modifier comme le fichier exemple template.tex
+        - ce qui a été fait sur ce fichier (et qui doit etre fait dans les futurs): 
+            - nouvelle police par défaut
+                - \setmainfont{Amiri-Bold}[Script=Arabic]
+            - modification de psset pour ajouter fleches (angles droits foireux en commentaire)
+                - \psset{showbbox=false,treemode=D,linewidth=0.3pt,treesep=1ex,levelsep=1cm,arrows=->}%edge=\ncangle,angleA=-90,angleB=90
+            - les nouvelles commandes :
+                - \newcommand{\exemple}[1]{%\fontspec{Amiri}[Scale=0.9,Script=Arabic]\RL{#1}}
+                - \newcommand{\annot}[1]{%\fontspec{Amiri}[Scale=0.7,Script=Arabic]\RL{#1}}
+            - remplacement des \fontspec{Amiri}[Script=Arabic] dans l'arbre
+            - ajout d'exemple en mettant la nouvelle commande \exemple devant
+            - ajout d'annotation sur les edges en mettant la nouvelle commande \annot sur les \taput \tbput etc.
+            - ajout du titre avec : 
+                - \centering
+                - {\exemple Cours 1 - \RL{قطر النَّدَى - الاِسم}}}

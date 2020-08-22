@@ -1,0 +1,119 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[
+  margin=2cm,
+  includehead,
+  includefoot,
+  heightrounded % to avoid spurious underfull messages
+]{geometry} 
+\usepackage{setspace}
+\usepackage[colorlinks=true,linkcolor=gray]{hyperref}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{nameref}
+\newcommand*{\currentname}{\@currentlabelname}
+\usepackage{multirow}
+\usepackage{graphicx,xcolor}
+\usepackage{fancyhdr}
+\usepackage{pdfpages} %inclus les schemas
+\usepackage{pdflscape} 
+\usepackage{fontspec,polyglossia}
+    \setdefaultlanguage{arabic}
+			\newfontfamily\arabicfont[Script=Arabic,Scale = 1.2,BoldFont={Amiri-Bold}]{Amiri}
+    \setotherlanguage{french}        
+        \newfontfamily\frenchfont[Scale = 0.9]{Times New Roman}
+\usepackage{bidi}[rldocument]
+
+\newcommand{\emphaseVV}[1]{\char"200D\textcolor{black!40}{\char"200D #1\char"200D}{\char"200D}}
+\newcommand{\emphaseVF}[1]{\char"200D\textcolor{black!40}{\char"200D #1}}
+\newcommand{\emphaseFV}[1]{\textcolor{black!40}{#1\char"200D}{\char"200D}}
+\newcommand{\emphaseFF}{\textcolor{black!40}}
+
+\newcommand*{\numberofpages}[1]{%
+  \the\XeTeXpdfpagecount"#1" %
+}
+\newcommand{\mysection}[1]{    
+    \phantomsection
+    \addcontentsline{toc}{section}{#1}
+    \stepcounter{cptsec}
+    %\RL{\section{#1}}
+    \fancyhead[l]{\vspace{-2em} \rotatebox{90}{\noindent\fbox{\textbf{\RL{\thecptsec. #1}}}}}
+    %\numberofpages{./a4_004.pdf}/\thecptsec
+}
+\newcommand{\mycommand}{
+    \thispagestyle{mylandscape}
+    %\stepcounter{cptsec}
+    }
+
+\renewcommand{\headrulewidth}{0pt} %removes the top line
+\setlength{\headheight}{15pt}
+\fancypagestyle{mylandscape}{%
+  %\fancyhf{}% Clear header/footer
+  \fancyfoot{% Footer
+    \makebox[\textwidth][r]{% Right
+      \rlap{\hspace{-1em}% Push out of margin by \footskip
+        \smash{% Remove vertical height
+          \raisebox{\dimexpr1.5\baselineskip+1.5\textheight}{% Raise vertically
+            \rotatebox{90}{\thepage}}}}}}% Rotate counter-clockwise
+  %\renewcommand{\headrulewidth}{0pt}% No header rule
+  \renewcommand{\footrulewidth}{0pt}% No footer rule
+}
+
+\title{قَطرُ النَدَى}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\newcounter{cptsec}
+
+\begin{landscape}
+
+    \includepdf[pages=1, landscape,pagecommand={\mycommand\mysection{الاِسم}}]{./a4_001}
+
+    \includepdf[pages=1, landscape,pagecommand={\mycommand\mysection{الفِعل}}]{./a4_002}
+    \includepdf[pages=2-,landscape,pagecommand={\mycommand}]{./a4_002}
+    
+    \includepdf[pages=1, landscape,pagecommand={\mycommand\mysection{الإِعراب}}]{./a4_003}
+
+    \includepdf[pages=1, landscape,pagecommand={\mycommand\mysection{\RL{العَلَامَات الفَرعِية}}}]{./a4_004}
+    \includepdf[pages=2-,landscape,pagecommand={\mycommand}]{./a4_004}
+
+    \includepdf[pages=1, landscape,pagecommand={\mycommand\mysection{\RL{الفِعل المُضارِع}}}]{./a4_005}
+    \includepdf[pages=2-,landscape,pagecommand={\mycommand}]{./a4_005}
+
+    \includepdf[pages=1, landscape,pagecommand={\mycommand\mysection{\RL{حالات أَن}}}]{./a4_006}
+    \includepdf[pages=2-,landscape,pagecommand={\mycommand}]{./a4_006}
+    
+    \includepdf[pages=1, landscape,pagecommand={\mycommand\mysection{\RL{الجَوَازِمُ}}}]{./a4_007}
+    \includepdf[pages=2-,landscape,pagecommand={\mycommand}]{./a4_007}
+
+    \includepdf[pages=1, landscape,pagecommand={\mycommand\mysection{\RL{أنواع المعارف}}}]{./a4_008_0}
+    \includepdf[pages=-, landscape,pagecommand={\mycommand}]{./a4_008_1}
+    \includepdf[pages=-, landscape,pagecommand={\mycommand}]{./a4_008_2}
+    \includepdf[pages=-, landscape,pagecommand={\mycommand}]{./a4_008_3}
+    \includepdf[pages=-, landscape,pagecommand={\mycommand}]{./a4_008_4}
+    \includepdf[pages=-, landscape,pagecommand={\mycommand}]{./a4_008_5}
+    \includepdf[pages=-, landscape,pagecommand={\mycommand}]{./a4_008_6}
+
+    \includepdf[pages=1, landscape,pagecommand={\mycommand\mysection{\RL{المُبتَدَأ و الخَبَر}}}]{./a4_009}
+    \includepdf[pages=2-,landscape,pagecommand={\mycommand}]{./a4_009}
+
+    \includepdf[pages=1, landscape,pagecommand={\mycommand\mysection{\RL{نَوَاسِخ المُبتَدَأ وَ الخَبَر}}}]{./a4_010}
+    \includepdf[pages=2-,landscape,pagecommand={\mycommand}]{./a4_010}
+
+    \includepdf[pages=1, landscape,pagecommand={\mycommand\mysection{\RL{الفَاعِل}}}]{./a4_011}
+    \includepdf[pages=2-,landscape,pagecommand={\mycommand}]{./a4_011}
+
+    \includepdf[pages=1, landscape,pagecommand={\mycommand\mysection{\RL{المَنصُوبَاتِ الأَسمَاء}}}]{./a4_012}
+    %\includepdf[pages=2-,landscape,pagecommand={\mycommand}]{./a4_011}
+
+\end{landscape}
+
+%\section{المَصدَر الفِعلُ الرُّبَاعِي}
+%\begin{figure}[h]
+%    \centering
+%    \includegraphics[scale=1.25]{./Al_fil_roubai_mujarad/Masdar_fil_roubai_mujarad}
+%\end{figure}
+
+\end{document}

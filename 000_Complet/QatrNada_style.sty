@@ -1,0 +1,66 @@
+\ProvidesPackage{QatrNada_style}
+
+\usepackage[margin=1in,landscape]{geometry}
+%\usepackage[active,tightpage,xetex]{preview}
+\usepackage[tuenc]{fontspec}
+\usepackage{pstricks,pst-node,pst-tree}
+\usepackage{varwidth,realscripts}
+\usepackage{graphicx}
+\usepackage{ulem}
+\usepackage{bidi}
+\usepackage{titling}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Amiri-Bold}[Script=Arabic,Scale=1.2]
+\pagestyle{empty}
+\psset{showbbox=false,
+       treemode=D,
+       linewidth=0.3pt,
+       treesep=0.5em,
+       levelsep=2em,
+       arrows=->,
+       edge=\ncangles,
+       angleA=-90,
+       angleB=90,
+       armA=1em,
+       armB=1em}
+\newcommand{\LFTw}[2]{%
+\Tr[name=#1,ref=t]{\psframebox[linestyle=none,framesep=3pt]{%
+  \begin{varwidth}{10em}\center #2\end{varwidth}}}
+}
+\newcommand{\LFTwl}[2]{%
+\Tr[ref=#1]{\psframebox[linestyle=none,framesep=3pt]{%
+  \begin{varwidth}{15em}\center #2\end{varwidth}}}
+}
+\newcommand{\LFTwsolid}[2]{%
+\Tr[ref=#1]{\psframebox[linestyle=solid,framesep=3pt]{%
+  \begin{varwidth}{30ex}\center #2\end{varwidth}}}
+}
+\newcommand{\LFTr}[2]{%
+\Tr[ref=#1]{%
+  \psframebox[linestyle=none,framesep=2pt]{#2}}
+}
+
+\newfontfamily{\exemplefont}{Amiri}[Scale=1,Script=Arabic]
+\newfontfamily{\moyennefont}{Amiri-Bold}[Scale=1,Script=Arabic]
+\newcommand{\exemple}[1]{%
+  \fontspec{Amiri}[Scale=1,Script=Arabic]
+  \RL{#1}
+}
+\newcommand{\annot}[1]{%
+  \fontspec{Amiri}[Scale=1,Script=Arabic]
+  \RL{#1}
+}
+
+\newcommand{\emphaseVV}[1]{\char"200D\textcolor{black!40}{\char"200D #1\char"200D}{\char"200D}}
+\newcommand{\emphaseVF}[1]{\char"200D\textcolor{black!40}{\char"200D #1}}
+\newcommand{\emphaseFV}[1]{\textcolor{black!40}{#1\char"200D}{\char"200D}}
+\newcommand{\emphaseFF}{\textcolor{black!40}}
+
+\def\pstreehooki{\psset{thislevelsep=*0pt}}
+\def\pstreehookiii{\psset{thislevelsep=*0pt}}
+\def\pstreehookv{\psset{thislevelsep=*0pt}}
+\def\pstreehookvii{\psset{thislevelsep=*0pt}}
+\def\pstreehookix{\psset{thislevelsep=*0pt}}
+\def\pstreehookxi{\psset{thislevelsep=*0pt}}
+\def\pstreehookxiii{\psset{thislevelsep=*0pt}}
+\def\pstreehookxv{\psset{thislevelsep=*0pt}}

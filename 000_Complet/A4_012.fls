@@ -1,0 +1,100 @@
+PWD e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet
+INPUT e:/texlive/2019/texmf.cnf
+INPUT e:/texlive/2019/texmf-dist/web2c/texmf.cnf
+INPUT e:/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/A4_012.tex
+OUTPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/A4_012.log
+INPUT e:/texlive/2019/texmf-dist/tex/latex/base/article.cls
+INPUT e:/texlive/2019/texmf-dist/tex/latex/base/article.cls
+INPUT e:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+INPUT e:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+INPUT e:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT e:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT e:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT e:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+INPUT e:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+INPUT e:/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT e:/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+INPUT e:/texlive/2019/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+INPUT e:/texlive/2019/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+INPUT e:/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT e:/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT e:/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT e:/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT e:/texlive/2019/texmf-dist/tex/latex/pdfpages/ppxetex.def
+INPUT e:/texlive/2019/texmf-dist/tex/latex/pdfpages/ppxetex.def
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/A4_012.aux
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/A4_012.aux
+OUTPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/A4_012.aux
+INPUT e:/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT e:/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Al_Mansoubat.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Al_Mansoubat.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Al_Mansoubat.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Al_Mansoubat.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Al_Mansoubat.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Al_Mansoubat.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Al_Mansoubat.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Al_Mansoubat.pdf
+OUTPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/A4_012.xdv
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tabigh_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tabigh_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tabigh_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tabigh_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tabigh_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tabigh_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tabigh_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tabigh_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tarkhim_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tarkhim_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tarkhim_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tarkhim_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tarkhim_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tarkhim_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tarkhim_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Tarkhim_Al_Munada.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Istighaatha_Al_nudba.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Istighaatha_Al_nudba.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Istighaatha_Al_nudba.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Istighaatha_Al_nudba.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Istighaatha_Al_nudba.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Istighaatha_Al_nudba.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Istighaatha_Al_nudba.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/../012-Al_Mansoubat/Munada/Al_Istighaatha_Al_nudba.pdf
+INPUT e:/Users/Didoul/Documents/03.Arabe-Islam/Arabe/Qatr AlNada/000_Complet/A4_012.aux

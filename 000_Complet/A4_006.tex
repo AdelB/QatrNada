@@ -1,0 +1,14 @@
+% !TEX root = ./Qatr_Nada.tex
+\documentclass{article}
+\usepackage[a4paper,portrait]{geometry}
+\usepackage{pdfpages}
+\usepackage{pdflscape} 
+
+\begin{document}
+\begin{landscape} %changes the format to landscape, have to rotate the text 
+    \includepdf[angle=90,pages=-]{../006-HAlatiAn/QatrNada_Cours6_HAlat_An} %changes paper size
+    \includepdf[angle=90,pages=-]{../006-HAlatiAn/QatrNada_Cours6_HAlat_An_mudmar_wjwban} %changes paper size
+\end{landscape}
+%portrait
+\includepdf[rotateoversize,pages=-]{../006-HAlatiAn/QatrNada_Cours6_HAlat_An_mudmar_jawazan} %changes paper size
+\end{document}
